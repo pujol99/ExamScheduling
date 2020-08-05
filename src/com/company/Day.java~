@@ -17,10 +17,6 @@ public class Day {
     public List<Lecture> getLectures() {
         return lectures;
     }
-    
-    public void removeLecture(Lecture l){
-        lectures.remove(l);
-    }
 
     public void addLecture(Lecture l){
         lectures.add(l);
